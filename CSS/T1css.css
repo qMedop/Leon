@@ -179,6 +179,17 @@ html {
     top: -20px;
 }
 
+.header .links ul::after {
+    content: "";
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent transparent transparent transparent;
+    position: absolute;
+    right: 0px;
+    top: -28px;
+    z-index: -1;
+}
+
 .header .links:hover ul {
     display: block;
 }
